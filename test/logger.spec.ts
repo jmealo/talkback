@@ -23,7 +23,7 @@ describe("Logger", () => {
       const logger = new Logger({silent: true, debug: true})
       logger.log("Test")
 
-      td.verify(log("Test"))
+      td.verify(log("Test2"))
     })
 
     it("writes to log console if silent option is disabled", () => {
